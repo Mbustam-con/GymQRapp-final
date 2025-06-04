@@ -1,0 +1,15 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+  <shortcut
+    android:shortcutId="show_qr"
+    android:enabled="true"
+    android:shortcutShortLabel="@string/shortcut_short_label"
+    android:shortcutLongLabel="@string/shortcut_long_label"
+    android:shortcutDisabledMessage="@string/shortcut_disabled_message">
+    <intent
+      android:action="android.intent.action.VIEW"
+      android:targetPackage="com.gymqrapp"
+      android:targetClass="com.gymqrapp.MainActivity">
+      <extra android:name="shortcut" android:value="show_qr" />
+    </intent>
+  </shortcut>
+</shortcuts>

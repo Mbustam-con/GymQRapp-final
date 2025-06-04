@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GymQRApp</string>
+    <string name="shortcut_short_label">Gym QR</string>
+    <string name="shortcut_long_label">Show Gym QR Code</string>
+    <string name="shortcut_disabled_message">QR shortcut is disabled</string>
+    <string name="widget_description">Quick access to your gym QR code</string>
+</resources>
